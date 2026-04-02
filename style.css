@@ -1,0 +1,81 @@
+body{
+font-family:Arial;
+margin:0;
+background:#f2f3f7;
+}
+
+header{
+background:#6c5ce7;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header input{
+padding:8px;
+width:250px;
+margin-top:10px;
+border:none;
+border-radius:5px;
+}
+
+.container{
+display:flex;
+}
+
+.sidebar{
+width:200px;
+background:white;
+padding:20px;
+box-shadow:2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar select{
+width:100%;
+margin-top:10px;
+padding:8px;
+}
+
+main{
+flex:1;
+padding:20px;
+}
+
+.job{
+background:white;
+padding:15px;
+margin-bottom:15px;
+border-radius:8px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.job h3{
+margin:0;
+}
+
+.tags{
+margin-top:5px;
+}
+
+.tag{
+display:inline-block;
+background:#dfe6e9;
+padding:4px 8px;
+margin-right:5px;
+border-radius:4px;
+font-size:12px;
+}
+
+.apply{
+margin-top:10px;
+padding:6px 12px;
+background:#00b894;
+color:white;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+
+.apply:hover{
+background:#019875;
+}
