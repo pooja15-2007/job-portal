@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SmartHire Job Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🚀 SmartHire</h1>
+<input type="text" id="searchInput" placeholder="Search jobs...">
+</header>
+
+<div class="container">
+
+<aside class="sidebar">
+
+<h3>Filters</h3>
+
+<select id="roleFilter">
+<option value="all">All Roles</option>
+<option value="Frontend">Frontend</option>
+<option value="Backend">Backend</option>
+<option value="Fullstack">Fullstack</option>
+</select>
+
+<select id="locationFilter">
+<option value="all">All Locations</option>
+<option value="Bangalore">Bangalore</option>
+<option value="Hyderabad">Hyderabad</option>
+<option value="Chennai">Chennai</option>
+<option value="Remote">Remote</option>
+</select>
+
+</aside>
+
+<main>
+<h2>Job Listings</h2>
+<div id="jobList"></div>
+</main>
+
+</div>
+
+<script src="portal.js"></script>
+
+</body>
+</html>
